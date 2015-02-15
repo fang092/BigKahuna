@@ -133,3 +133,74 @@
   	top: 50%;
   	transform: translateY(-50%);
 }
+#Artlogo
+{
+	width:290px;
+	height:50px;
+}
+.about_pane
+{
+	height:200px;
+	width:600px;
+	margin:25px;
+	margin-top:15px;
+}
+#about
+{
+	height:150px;
+	width:550px;
+	margin:25px;
+	resize:none;
+	background-color:#1E1E1E;
+	color:white;
+
+}
+.history_pane
+{
+	height:200px;
+	width:600px;
+	margin:25px;
+	margin-top:0px;
+}
+#history
+{
+	height:150px;
+	width:550px;
+	margin:25px;
+	resize:none;
+	background-color:#1E1E1E;
+	color:white;
+
+}
+#title
+{
+	
+	margin-top:10px;
+	size:150px;
+	resize:none;
+	background-color:#1E1E1E;
+	color:white;
+}
+#time
+{
+	size:150px;
+	margin-top:10px;
+	resize:none;
+	background-color:#1E1E1E;
+	color:white;
+}
+#location
+{
+	size:150px;
+	margin-top:10px;
+	resize:none;
+	background-color:#1E1E1E;
+	color:white;
+}
+.label
+{
+	margin-top:15px;
+	position:center;
+	font-size:15px;
+	color:black;
+}

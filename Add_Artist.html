@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MCLA Art | Upcoming Events</title>
+
+    <link rel="icon" href="favicon.png">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="shadowbox.css">
+    <script type="text/javascript" src="shadowbox.js"></script>
+    <script type="text/javascript">
+    Shadowbox.init({
+    	handleOversize: "resize",
+      viewportPadding: "75px"
+	});
+    </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">MCLA Art</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Log In</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- <img class="img-responsive" src="http://placehold.it/400x300" alt=""> -->
+    <!-- Page Content -->
+      <div id="event-container" class="container">
+        
+        <div id="event-left-panel">
+          <center>
+            <img class="poster" src="images/poster1.jpg" width="55%"></img></br>
+             
+
+                
+                    <div class = "col-sm-6 col-md-12 form-group">
+                      <center>
+                        <label class="label">Title:</label>
+                        <textarea class="form-control" rows="1" maxlength = "75" id="title">Enter Title here...</textarea>
+                        
+                        <label class ="label">Time:</label>
+                        <textarea class="form-control" rows="1" maxlength = "75" id="time">Enter Time here...</textarea>
+                        
+                        <label class = "label">Location:</label>
+                        <textarea class="form-control" rows="1" maxlength = "75" id="location">Enter Location here</textarea>
+                        
+                      </center>
+                    </div>
+               
+             
+          </center>
+        </div>
+        
+        <div id="event-right-panel">
+          <h3>-About This Event-</h3>
+          <div class = "col-sm-6 col-md-12 about_pane form-group">
+            <textarea class = "form-control" id = "about" rows="5" >About...</textarea>
+
+            <label class = "label">-Optional-</label>
+            <textarea class = "form-control" id = "history" rows = "5">History or Additional Description...</textarea>
+
+  
+        </div>
+      </div>
+      <div id = "event-bottom-panel"> </div>
+        <p class="float-clear"></p>
