@@ -204,3 +204,11 @@
 	font-size:15px;
 	color:black;
 }
+.min-height-300
+{
+	min-height: 300px;
+}
+.add-edit-panel
+{
+	padding: 10px;
+}
