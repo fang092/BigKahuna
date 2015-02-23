@@ -89,6 +89,23 @@
 	min-height: 700px;
 	border-left: 2px solid #DDD;
 }
+#event-left-panel-edit
+{
+	float: left;
+	width: 50%;
+	padding: 10px;
+	padding-top: 20px;
+	min-height: 700px;
+}
+#event-right-panel-edit
+{
+	float: left;
+	width: 50%;
+	padding: 10px;
+	padding-top: 0px;
+	min-height: 700px;
+	border-left: 2px solid #DDD;
+}
 .temp-border
 {
 	border: 1px solid black;
@@ -141,15 +158,11 @@
 .about_pane
 {
 	height:200px;
-	width:600px;
 	margin:25px;
 	margin-top:15px;
 }
 #about
 {
-	height:150px;
-	width:550px;
-	margin:25px;
 	resize:none;
 	background-color:#1E1E1E;
 	color:white;
@@ -157,16 +170,11 @@
 }
 .history_pane
 {
-	height:200px;
-	width:600px;
 	margin:25px;
 	margin-top:0px;
 }
 #history
 {
-	height:150px;
-	width:550px;
-	margin:25px;
 	resize:none;
 	background-color:#1E1E1E;
 	color:white;
@@ -174,24 +182,20 @@
 }
 #title
 {
-	
 	margin-top:10px;
-	size:150px;
 	resize:none;
 	background-color:#1E1E1E;
 	color:white;
 }
 #time
 {
-	size:150px;
 	margin-top:10px;
 	resize:none;
 	background-color:#1E1E1E;
 	color:white;
 }
 #location
-{
-	size:150px;
+{	
 	margin-top:10px;
 	resize:none;
 	background-color:#1E1E1E;
@@ -223,7 +227,9 @@
 }
 .min_HW
 {
-	min-height:300px;
-	min-widht:150px;
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+	min-width:400px;
 }
 
