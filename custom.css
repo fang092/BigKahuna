@@ -212,3 +212,12 @@
 {
 	padding: 10px;
 }
+.inline
+{
+	float: left;
+	width: 50%;
+}
+.submit-button
+{
+	width: 25%;
+}
