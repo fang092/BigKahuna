@@ -221,3 +221,9 @@
 {
 	width: 25%;
 }
+.min_HW
+{
+	min-height:300px;
+	min-widht:150px;
+}
+

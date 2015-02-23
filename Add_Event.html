@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MCLA Art | Upcoming Events</title>
+    <title>MCLA Art | Add Event</title>
 
     <link rel="icon" href="favicon.png">
 
@@ -62,17 +62,12 @@
       <div id="event-container" class="container">
         
         <div id="event-left-panel">
-          <center>
-
-            <div class="fileupload fileupload-new" data-provides="fileupload">
-              <div class="fileupload-preview thumbnail" style="width: 200px; height: 300px;"></div>
-                <div>
-                  <span class="btn btn-file"><span class="fileupload-new">Select image</span><span class="fileupload-exists">Change</span><input type="file" /></span>
-                  <a href="#" class="btn fileupload-exists" data-dismiss="fileupload">Remove</a>
-                </div>
-           </div>
-            <!--<img class="poster" src="images/poster1.jpg" width="55%"></img></br>-->
-             
+          
+            <div class="col-sm-8 min_HW add-edit-panel panel panel-default">
+              
+                <input id="input-702" name = "kartik-input-702" class="file-loading" type="file" data-upload-url="/site/file-upload" data-max-file-count="1" >
+              
+            </div> 
 
                 
                     <div class = "col-sm-6 col-md-12 form-group">
@@ -88,9 +83,6 @@
                         
                       </center>
                     </div>
-               
-             
-          </center>
         </div>
         
         <div id="event-right-panel">
@@ -106,3 +98,35 @@
       </div>
       <div id = "event-bottom-panel"> </div>
         <p class="float-clear"></p>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/fileinput.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="shadowbox.js"></script>
+    <script>
+      /* Initialize your widget via javascript as follows */
+      $("#input-702").fileinput({
+        previewFileType: "image",
+        uploadUrl: "' . Url::to(['/site/file-upload']) . '",
+        maxFileCount:1,
+        overwriteInitial:false
+      });
+      Shadowbox.init({
+      handleOversize: "resize",
+      viewportPadding: "75px"
+       });
+    </script>
+    <script type="text/javascript">
+      // initialize with defaults
+      $("#input-id").fileinput();
+
+    </script>
+  </body>
+</html>
+  
