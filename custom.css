@@ -212,3 +212,8 @@
 {
 	padding: 10px;
 }
+.min_HW
+{
+	min-height:300px;
+	min-widht:150px;
+}
